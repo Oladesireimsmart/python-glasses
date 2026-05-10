@@ -1,0 +1,6 @@
+print("I wae up")
+print("make my bed")
+print ("brush my teeth")
+print("take my bath")
+print("have my breakfast")
+print("go to school")
