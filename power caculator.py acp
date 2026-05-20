@@ -1,0 +1,6 @@
+base=int(input("Enter the number"))
+power=int(input("Enter the power"))
+
+result =base**power
+
+print("result=",result)
