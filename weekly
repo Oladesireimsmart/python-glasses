@@ -1,0 +1,6 @@
+habbit=("Read Book", "Exercise", "go to waterpark")
+
+days=("mon", "tue", "wed", "thu", "fri", "sat", "sun")
+
+print("weekly habbit:",habbit)
+print()
