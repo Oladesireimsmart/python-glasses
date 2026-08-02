@@ -1,13 +1,19 @@
-snacks={" chips", " cookies", " candy", " ice cream"}
-snacks.add(" chocolate")
 
-other_snacks={" cookies", " candy", " nuts", " popcorn"}
-common_snacks = snacks.intersection(other_snacks)
+class pet:
+    def __init__(self, name,animal, age):
+        self.name = name
+        self.animal = animal
+        self.age = age
 
-counts=[2, 3,1]
-counts.append(4)
+    def show_pet(self):
+        print("The name of the pet is:", self.name)
+        print("The type of animal is:", self.animal)
+        print("The age of the pet is:", self.age)
 
-print("The common snacks are:", common_snacks)
+    
 
-counts.reverse()
-print("The counts are:", counts)
+pet1 = pet("Buddy", "Dog", 3)
+
+
+pet1.show_pet()
+
